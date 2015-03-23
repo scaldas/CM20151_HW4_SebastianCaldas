@@ -1,0 +1,14 @@
+Como no es especifico el nombre del archivo del inciso b, se llamo b.py
+
+Ahora, en este literal tuve un problema. La idea era guardar varios mapas (varios para que la visibilidad en cada uno fuera mejor)
+donde se tuviera un punto y una etiqueta por cada uno de los 150 rios con mayor caudal. La etiqueta corresponderia al caulda.
+
+Mas alla de que los graficos con las etiquetas quedan inentendibles (¿cuantos rios caudalosos puede tener Rusia? Demasiados), al intentar
+guardarlos, obtuve un error "OverflowError: Python int too large to convert to C long". En los foros relacionan este error con bugs en librerias
+o con puntos en una grafica que no pueden ser mostrados en pantalla. Lo raro es que los graficos si se muestran, solo no se dejan guardar.
+
+Mi solucion fue entonces la siguiente: Al correr el codigo, este te pedira piedad y un numero (si no es un numero, colapsa) para ingresar. 
+Si ingresas 0, guardara los graficos pero sin las etiquetas.
+Si ingresas 1, mostrara los graficos con las etiquetas, pero no los guardara.
+
+¡Mil gracias!

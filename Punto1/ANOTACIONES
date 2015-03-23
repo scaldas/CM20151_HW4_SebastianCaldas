@@ -1,0 +1,10 @@
+No se especifico como llamar al script de R del inciso a, por lo que se llamo a.R (super creativo el nombre).
+
+a.R produce 3 archivos -> temperaturas.csv, calidadarticuloweb.png, calidadarticuloimpreso.png. 
+						  Se generan 2 graficas pues una depende de colores, lo cual no es conveniente para un articulo impreso
+
+
+interp_temperaturas.py produce un .png por cada ciudad ("Interpolacion-Ciudad.png"). En cada imagen se aprecian los diferentes metodos de interpolacion.
+Los comentarios acerca de cual interpolacion es mejor se imprimen en consola al correr el codigo. 
+
+El inciso c tampoco especifica un nombre para el html. Se adjuntan entonces CalentamientoGlobal.html y CalentamientoGlobal.ipynb
